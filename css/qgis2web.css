@@ -10,7 +10,6 @@ th, td {
     vertical-align: top;
     text-align: left;
     Border: 1px Solid;
-    
 }
 
 #map {
@@ -28,12 +27,12 @@ th, td {
     padding: 15px;
     border-radius: 10px;
     border: 1px solid #cccccc;
-    bottom: 12px;
+    bottom: -250px;
     left: -50px;   
     height: auto;
     width: auto;
-    min-width: 400px;
-    max-height:400px;
+    min-width: 300px;
+    max-height:500px;
     overflow: auto;      
 }
 
@@ -45,15 +44,14 @@ th, td {
 }
 
 .ol-popup-closer:after {
-    content: "Exit"
-    
+    content: "Exit";
 }
 
 .ol-attribution a {
     text-decoration: none;
     color: #666;
     font-family: sans-serif;
-    font-size: 0%;
+    font-size: 100%;
 }
 
 .layer-switcher .panel {
