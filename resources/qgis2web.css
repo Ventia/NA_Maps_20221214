@@ -9,7 +9,6 @@ html, body {
 th, td {
     vertical-align: top;
     text-align: left;
-    Border: 1px Solid;
 }
 
 #map {
@@ -27,12 +26,12 @@ th, td {
     padding: 15px;
     border-radius: 10px;
     border: 1px solid #cccccc;
-    bottom: -250px;
+    bottom: 12px;
     left: -50px;   
     height: auto;
     width: auto;
-    min-width: 300px;
-    max-height:500px;
+    min-width: 100px;
+    max-height:400px;
     overflow: auto;      
 }
 
@@ -44,7 +43,7 @@ th, td {
 }
 
 .ol-popup-closer:after {
-    content: "Exit";
+    content: "X";
 }
 
 .ol-attribution a {
